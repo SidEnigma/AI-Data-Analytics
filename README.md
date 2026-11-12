@@ -1,4 +1,4 @@
-# Stack Overflow Data Analytics
+# Agentic Data Analytics
 
 An autonomous AI-powered data analytics agent that ingests, processes, and visualizes data through natural language interaction — powered by [Opencode](https://opencode.ai).
 
