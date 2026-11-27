@@ -14,7 +14,7 @@ JOIN `bigquery-public-data.stackoverflow.users` u
 WHERE LOWER(tag) IN (
     'python', 'javascript', 'java', 'c#', 'c++', 'php', 'ruby', 'go',
     'rust', 'swift', 'kotlin', 'typescript', 'scala', 'r', 'perl',
-    'haskell', 'lua', 'dart', 'elixir', 'clojure', 'sas', 'matlab'
+    'haskell', 'lua', 'dart', 'clojure', 'sas', 'matlab'
   )
   AND u.reputation >= 100
 GROUP BY language
